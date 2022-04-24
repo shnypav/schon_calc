@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
         self.entry_field.setSizePolicy(sizePolicy1)
         self.entry_field.setStyleSheet(u"font-size: 40pt;\n"
                                        "border: none;")
-        self.entry_field.setMaxLength(10)
+        self.entry_field.setMaxLength(16)
         self.entry_field.setAlignment(Qt.AlignRight | Qt.AlignTrailing | Qt.AlignVCenter)
         self.entry_field.setReadOnly(True)
 
