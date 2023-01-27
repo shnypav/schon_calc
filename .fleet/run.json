@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "name": "maidn",
+        "type": "python",
+        "environment": {
+        },
+        "file": "$PROJECT_DIR$/main.py",
+        "arguments": [],
+      },
+
+
+    ]
+}

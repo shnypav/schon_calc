@@ -201,7 +201,6 @@ class Calculator(QMainWindow):
                 if self.get_sign_from_temp() == "=":
                     self.add_temp()
                 else:
-                    a = 2
                     self.temp.setText(temp[:-2] + f"{btn.text()} ")
             else:
                 self.temp.setText(self.calc() + f" {btn.text()}")
