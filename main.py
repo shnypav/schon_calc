@@ -198,7 +198,7 @@ class Calculator(QMainWindow):
             self.add_temp()
         else:
             if self.get_sign_from_temp() != btn.text():
-                if self.get_sign_from_temp() == "=":
+                if self.get_sign_from_temp() == "34=":
                     self.add_temp()
                 else:
                     self.temp.setText(temp[:-2] + f"{btn.text()} ")
